@@ -30,7 +30,13 @@ for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click', capture, true);
 }</script>
     <br />
-
+<script>
+const main = document.getElementById('main');
+ 
+main.addEventListener('click', function(event) {
+  alert('I was clicked!');
+});
+</script>
     <div>
       1
       <div>
